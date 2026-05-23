@@ -1,0 +1,118 @@
+aid: vectra-ai
+url: https://raw.githubusercontent.com/api-evangelist/vectra-ai/refs/heads/main/apis.yml
+name: Vectra AI
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Cybersecurity
+- NDR
+- XDR
+- AI Detection
+- Network Security
+- Cloud Security
+- MXDR
+description: Vectra AI is an AI-driven network detection and response (NDR) vendor whose Vectra AI Platform applies Attack
+  Signal Intelligence across network, cloud, identity, Microsoft 365, Entra ID, AWS, Azure, Google Cloud, and IoT/OT environments.
+  The platform combines 150+ AI models and 39 AI patents to surface attacker behavior at scale, and is offered with optional
+  Managed Extended Detection and Response (MXDR) services. Vectra exposes a gated REST API at api.vectra.io for partner
+  and customer integrations with SIEMs, SOARs, EDR tools, and ticketing systems. Named a Leader in the 2026 Gartner Magic
+  Quadrant for NDR.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+- aid: vectra-ai:vectra-ai-platform-api
+  name: Vectra AI Platform API
+  tags:
+  - Detections
+  - Hosts
+  - Accounts
+  - Threat Intelligence
+  - NDR
+  humanURL: https://support.vectra.ai
+  baseURL: https://api.vectra.io
+  properties:
+  - url: https://support.vectra.ai
+    type: Documentation
+    title: Vectra AI Customer Support and API Documentation (gated)
+  - url: https://www.vectra.ai/platform
+    type: Portal
+    title: Vectra AI Platform
+  description: The Vectra AI Platform REST API (api.vectra.io) provides programmatic access to detections, hosts, accounts,
+    assignments, threat-intelligence indicators, and platform configuration for the Vectra AI Platform. Customers and integration
+    partners use the API to push detections into SIEMs, automate response in SOARs, enrich EDR workflows, and build custom
+    security operations tooling. Detailed reference documentation and API credentials are provisioned through the Vectra
+    customer support portal.
+common:
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vectra-networks
+- type: Website
+  url: https://www.vectra.ai/
+- type: Portal
+  url: https://support.vectra.ai
+  title: Vectra AI Customer Support Portal
+- type: Documentation
+  url: https://support.vectra.ai
+- type: Blog
+  url: https://www.vectra.ai/blog
+- type: Resources
+  url: https://www.vectra.ai/resources
+- type: ContactSales
+  url: https://www.vectra.ai/contact
+- type: Careers
+  url: https://www.vectra.ai/company/careers
+- type: Partners
+  url: https://www.vectra.ai/partners
+- type: PrivacyPolicy
+  url: https://www.vectra.ai/privacy
+- type: TermsOfService
+  url: https://www.vectra.ai/terms
+- type: Features
+  data:
+  - name: Attack Signal Intelligence
+    description: Vectra's AI engine using 150+ AI models and 39 AI patents to surface real attacker behavior
+  - name: Network Detection
+    description: NDR coverage across data center, campus, remote, cloud, and IoT/OT environments
+  - name: Cloud Detection
+    description: Detections across AWS, Azure, and Google Cloud control-plane and workload signals
+  - name: Identity Detection
+    description: Detections across Microsoft 365, Entra ID, and other identity providers
+  - name: MXDR
+    description: Optional 24x7x365 Managed Extended Detection and Response service delivered by Vectra analysts
+  - name: Threat Investigation
+    description: Investigation workflows surfacing host, account, and detection context for SOC analysts
+  - name: AI-Driven Triage
+    description: AI-based prioritization that reduces alert noise and surfaces the highest-risk threats
+- type: UseCases
+  data:
+  - name: NDR for Hybrid Networks
+    description: Detect lateral movement across data center, cloud, and remote networks
+  - name: Cloud and Identity Threat Detection
+    description: Detect credential abuse, privilege escalation, and account compromise across hybrid environments
+  - name: SOC Alert Reduction
+    description: Use Attack Signal Intelligence to compress alert volume into high-fidelity threats
+  - name: Managed XDR
+    description: Offload 24x7 detection and response to the Vectra MXDR team
+  - name: Ransomware Defense
+    description: Detect ransomware behaviors across network, identity, and cloud surfaces before encryption
+- type: Integrations
+  data:
+  - name: Splunk
+    description: SIEM integration for streaming detections, hosts, and accounts into Splunk
+  - name: Microsoft Sentinel
+    description: Native integration with Microsoft Sentinel for cloud-native SIEM workflows
+  - name: Google Chronicle
+    description: Integration for forwarding Vectra detections into Google Chronicle
+  - name: Cortex XSOAR
+    description: Playbook content and connectors for Palo Alto Cortex XSOAR
+  - name: Splunk SOAR
+    description: Bidirectional integration with Splunk SOAR for automated response
+  - name: CrowdStrike
+    description: Cross-correlation and response integration with CrowdStrike Falcon
+  - name: Microsoft Defender
+    description: Integration with Microsoft Defender for endpoint context and response
+  - name: SentinelOne
+    description: Endpoint integration with SentinelOne for cross-tool detection and response
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
