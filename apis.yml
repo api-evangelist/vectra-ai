@@ -2,7 +2,7 @@ aid: vectra-ai
 url: https://raw.githubusercontent.com/api-evangelist/vectra-ai/refs/heads/main/apis.yml
 name: Vectra AI
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Cybersecurity
 - NDR
