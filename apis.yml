@@ -44,6 +44,10 @@ apis:
     security operations tooling. Detailed reference documentation and API credentials are provisioned through the Vectra
     customer support portal.
 common:
+- type: TrustCenter
+  url: security/vectra-ai-trust-center.yml
+- type: DomainSecurity
+  url: security/vectra-ai-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/vectra-networks
 - type: Website
