@@ -31,7 +31,7 @@ description: Vectra AI is an AI-driven network detection and response (NDR) vend
   Quadrant for NDR.
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - aid: vectra-ai:vectra-ai-platform-api
   name: Vectra AI Platform API
