@@ -38,6 +38,12 @@ apis:
   tags:
   - Detections
   - Hosts
+  - Account
+  - Threat Intelligence
+  - NDR
+  tags_raw:
+  - Detections
+  - Hosts
   - Accounts
   - Threat Intelligence
   - NDR
